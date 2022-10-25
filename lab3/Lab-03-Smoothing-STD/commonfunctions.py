@@ -10,10 +10,12 @@ from skimage.color import rgb2gray,rgb2hsv
 # Convolution:
 from scipy.signal import convolve2d
 from scipy import fftpack
+from scipy.ndimage import gaussian_filter
 import math
 
 from skimage.util import random_noise
 from skimage.filters import median
+from skimage.filters import gaussian
 from skimage.feature import canny
 
 
